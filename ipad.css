@@ -1,0 +1,84 @@
+@media   (max-width:1024px){
+  html,header,main,footer{
+    width:100%;
+  }
+  .wrapper{
+    overflow: hidden;
+  }
+
+.all-card{
+  width:100%;
+  box-sizing: border-box;
+  padding:0px 0px 0px 20px;;
+
+
+}
+.card-list{
+  width:50%;
+  margin-left:0px!important;
+  box-sizing: border-box;
+  padding-left:10px;
+
+}
+.card{
+  box-sizing: border-box;
+  margin-right:10px!important;
+  height:auto !important;
+}
+
+.one{
+  width:100%;
+  margin-left:130px !important;
+}
+.f_theme{
+  box-sizing:border-box;
+  padding-right:10px;
+  padding-left:10px;
+  margin-left:0px !important;
+}
+.tag{
+  margin-left:0px !important;
+    margin-right:0px !important;
+  width:100%;
+  box-sizing:border-box;
+  padding-right:10px;
+  padding-left:10px;
+}
+
+
+.c-a{
+  flex-direction: column;
+}
+.category{
+  margin-left:0px !important;
+    margin-right:0px !important;
+    width:100%;
+    box-sizing:border-box;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+
+.archives{
+  margin-left:0px  !important;
+    margin-right:0px !important;
+    width:100%;
+    box-sizing:border-box;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.popular{
+  margin-left:0px  !important;
+    margin-right:0px !important;
+    width:100%;
+    box-sizing:border-box;
+    padding-right:10px;
+    padding-left:10px;
+}
+.popular_list{
+  box-sizing: border-box;
+  padding-right:10px;
+}
+
+}
