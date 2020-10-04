@@ -6,29 +6,20 @@
     overflow: hidden;
   }
 
-.all-card{
-  width:100%;
-  box-sizing: border-box;
-  padding:0px 0px 0px 20px;;
 
-
-}
 .card-list{
   width:50%;
   margin-left:0px!important;
   box-sizing: border-box;
   padding-left:10px;
+:
 
 }
+
 .card{
   box-sizing: border-box;
   margin-right:10px!important;
   height:auto !important;
-}
-
-.one{
-  width:100%;
-  margin-left:130px !important;
 }
 .f_theme{
   box-sizing:border-box;
