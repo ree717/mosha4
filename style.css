@@ -49,8 +49,9 @@ a{
 }
 
 .card-list{
-  margin-left:187px;
+
   margin-top:45px;
+
 }
 .card{
   width:370px;
@@ -69,6 +70,9 @@ a{
 	box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
 	transform: translateY(-4px);
 }
+.btns{
+  text-align:center;
+}
 
 .side-card{
   width:350px ;
@@ -77,15 +81,20 @@ a{
   margin-top: 45px;
 }
 .side-card img{
-  width:350px;
+  width:100%;
   height:260px;
 }
 .all-card{
   display:flex;
+
+
 }
 .number{
   display:flex;
+  justify-content: center;
+
 }
+
 .profile{
   height:510px;
   width:350px;
@@ -93,9 +102,10 @@ a{
 }
 .icon{
   display:flex;
-  margin-left: 70px;
+  text-align:center;
+  display:inline-block;
 }
-.icon i{
+.icon span{
   font-size:20px;
   color:#fff;
   margin-right:20px;
@@ -203,19 +213,26 @@ footer{
   height:670px;
   color:#fff;
 }
+
 .footer_list{
   display:flex;
+  justify-content: center;
+
+
+
+
 }
 .f_theme{
   width:300px;
   color:#fff;
-  margin-left:180px;
+
   padding-top:50px;
 }
 .tag{
   margin-top:70px;
   color:#fff;
-  margin-left:180px;
+
+
 }
 .tag ul{
   display:flex;
@@ -256,6 +273,7 @@ footer{
   font-size:12px;
   width:390px;
 }
+
 .popular_list{
   display:flex;
   margin-bottom:20px;
