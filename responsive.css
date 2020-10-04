@@ -46,7 +46,7 @@ a{
 
   }
   .wrapper{
-    overflow-x: hidden;
+
 
 
   }
@@ -55,34 +55,99 @@ a{
     width:100%;
     box-sizing:border-box;
     padding-left:0px !important;
+
   }
   .card-list{
     width:100% !important;
-    margin-left:0px!important;
+    margin-left:10px;
     box-sizing: border-box;
-    padding-left:10px;
+    padding:0px 10px;
+
+
 
   }
+
   .card{
-    box-sizing: border-box;
-    margin-right:10px!important;
+    box-sizing: border-box!important;
     height:auto !important;
   }
-  .one{
+  .card-body{
+    box-sizing:border-box;
     width:100%;
-    margin-left:130px !important;
   }
+  .side-colum{
+    width:100%;
+    box-sizing: border-box;
+    padding:0px 10px;
+  }
+  .side-card{
+    width:100%!important;
+    margin-left:0px !important;
+    margin-right:10px !important;
+
+  }
+  .profile{
+    width:100% !important;
+    margin-right: 10px!important;
+    margin-left:0px !important;
+  }
+  .recent_post{
+    width:100%!important;
+    margin-left:0px !important;
+
+
+  }
+  .cg{
+    width:100%!important;
+    margin-left:0px !important;
+
+
+  }
+  .tg{
+    width:100%!important;
+    margin-left:0px !important;
+
+
+
+
+  }
+.serch{
+  width:100%!important;
+  margin-left:0px !important;
+
+
+}
+.recommend{
+  width:100%!important;
+  margin-left:0px !important;
+
+}
+
+select{
+  margin-left: 0px !important;
+  margin-right:0px !important;
+  width:100% !important;
+
+}
+input{
+  margin-left: 0px !important;
+  margin-right:0px !important;
+  box-sizing:border-box;
+  width:100% !important;
+}
+
   footer{
     height:auto !important;
   }
   .footer_list{
     display:block!important;
   }
-  .f_theme{
 
-    box-sizing:border-box;
-    padding-right:10px;
-    padding-left:70px !important;
+  .f_theme{
+    width:100%!important;
+    box-sizing:border-box !important;
+    padding-left: 20px !important;
+    padding-right:20px !important;
   }
   .tag{
     margin-left:0px !important;
@@ -147,14 +212,46 @@ a{
   .popular{
     margin-left:0px  !important;
       margin-right:0px !important;
-      width:100%;
-      box-sizing:border-box;
+      width:100% !important;
+      box-sizing:border-box !important;
       padding-right:10px;
       padding-left:10px;
+  }
+  .popular_theme{
+     border-bottom:solid 2px #9ACC1E;
+     border-left: none!important;
   }
   .popular_list{
     box-sizing: border-box;
     padding-right:10px;
 
   }
+}
+
+@media (min-width:1200px){
+  .all-card{
+    width:1170px!important;
+    margin:auto;
+
+  }
+
+
+
+}
+
+@media (min-width:992px){
+  .all-card{
+    width:970px;
+    margin:auto;
+
+  }
+
+}
+@media (min-width:768px){
+  .all-card{
+    width:750px;
+    margin:auto;
+
+  }
+
 }
